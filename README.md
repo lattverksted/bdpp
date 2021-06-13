@@ -11,3 +11,8 @@ This is a textbook binary classification problem that we will tackle in a superv
 We have found a dataset of labeled movie reviews from IMDB. It contains 50,000 reviews split evenly into 25 000 training and as many testing samples.
 We will use a SVM model to solve this classification model for a good generalization error.
 
+
+
+The model reaches a test accuracy of 87.3% which is not bad given that we simply count words regardless the interaction between them and that no hyper-parameter tuning has been performed yet. The train accuracy is 88.4% which is not far from the test accuracy. Hence, the model is not over-fitting.   
+The accuracy could be improved by cleaning further the feature vector further and also using a Random Forest model.
+
