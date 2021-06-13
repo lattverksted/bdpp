@@ -16,3 +16,9 @@ A MLIB pipeline, a default partition RDD and a custom partition RDD were impleme
 The model reaches a test accuracy of 87.3% which is not bad given that we simply count words regardless the interaction between them and that no hyper-parameter tuning has been performed yet. The train accuracy is 88.4% which is not far from the test accuracy. Hence, the model is not over-fitting.   
 The accuracy could be improved by cleaning further the feature vector further and also using a Random Forest model.
 
+--------------------------------------------------
+REQUIREMENT PYSPARK
+
+UNCOMPRESS DatasetB1.7z
+
+modify file path
